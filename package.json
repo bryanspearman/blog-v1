@@ -1,7 +1,7 @@
 {
-  "name": "my-hyperdev-app",
+  "name": "blog-v1",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "Blog app for practicing API routing'",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -12,12 +12,9 @@
     "morgan": "^1.7.0",
     "uuid": "^2.0.3"
   },
-  "engines": {
-    "node": "4.4.3"
-  },
   "repository": {
     "type": "git",
-    "url": "https://hyperdev.com/#!/project/welcome-project"
+    "url": "https://github.com/bryanspearman/blog-v1.git"
   },
   "keywords": [
     "node",

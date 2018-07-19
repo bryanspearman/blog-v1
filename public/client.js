@@ -11,12 +11,12 @@ const uuid = require('uuid');
 
 
 function StorageException(message) {
-  this.message = message;
-  this.name = "StorageException";
+   this.message = message;
+   this.name = "StorageException";
 }
 
 const BlogPosts = {
-  create: function (title, content, author, publishDate) {
+  create: function(title, content, author, publishDate) {
     const post = {
       id: uuid.v4(),
       title: title,
@@ -27,7 +27,7 @@ const BlogPosts = {
     this.posts.push(post);
     return post;
   },
-  get: function (id = null) {
+  get: function(id=null) {
     // if id passed in, retrieve single post,
     // otherwise send all posts.
     if (id !== null) {
@@ -35,19 +35,19 @@ const BlogPosts = {
     }
     // return posts sorted (descending) by
     // publish date
-    return this.posts.sort(function (a, b) {
+    return this.posts.sort(function(a, b) {
       return b.publishDate - a.publishDate
     });
   },
-  delete: function (id) {
+  delete: function(id) {
     const postIndex = this.posts.findIndex(
       post => post.id === id);
     if (postIndex > -1) {
       this.posts.splice(postIndex, 1);
     }
   },
-  update: function (updatedPost) {
-    const { id } = updatedPost;
+  update: function(updatedPost) {
+    const {id} = updatedPost;
     const postIndex = this.posts.findIndex(
       post => post.id === updatedPost.id);
     if (postIndex === -1) {
@@ -67,4 +67,4 @@ function createBlogPostsModel() {
 }
 
 
-module.exports = { BlogPosts: createBlogPostsModel() };
+module.exports = {BlogPosts: createBlogPostsModel()};
