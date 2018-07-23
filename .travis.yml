@@ -2,6 +2,6 @@ deploy:
   provider: heroku
   api_key:
     secure: 0rS+qmm2wzF1OxPOD/v0mlgAJprqtlkOdz6+eOCM4x/0mgED79bNHpVxh23XCxVH7ZmX2Nc59QFVFUDxvttzEw69XwPOKspQRmgGFT0hDlNy+iuk3hsZK+mcBymhXLZhXYasW3x3IYJLZxf1S+wJ++H9Qg5zWZQWWWyoWXIDT11jUDKk9njuWGIFwYcmaa6i4ZQDfG47V7E62T1DSr45qJjOFbKwViMvTDkXXNGKjJ/KzE9ytKjUr4lYx/3e9jByRM0963f57fs58KEvK29B/X7bTKBVJc+CAZVKGYu45o8eYoGRyF8Jemj9XHEXy1CHLdIeoCk6BiQJBK/vNQXrUy/pI5dMCVXLqd6h4V9viDJCo3U8WcIS6yW5ng4yDgIR3UebrAkkSoeXctvgj0PuSbCXrELDrNBjCGI65/gM6H9/+VVAUJud8fp3ys4qcihGiS6XmkTrJxgLpDXEDoBgmviwJBRGuylUoSsLT3Eo2v9FaeFVSjx/rHIcIQLdUiTMcoMnjP2D9MMwb7dlMBBBFYjxk9Ren1+Oo2Mxx+bny7+w4vGIIQfmWgPd8ahZGU1+QLLloax6eYmZqghAhYqaLRF4T73wJFqAiFGnGdMXqCmpxPdXIzkG2hqZBcPp2Pubmdom/SnrKDxJw4f3esq0ePQT43wBsxRhJda1QLllYq4=
-  app: blog-v1
+  app: warm-island-79195
   on:
     repo: bryanspearman/blog-v1
